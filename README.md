@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project aims to be a practice of Ruby on Rails course from SkillShare: Ruby on Rails: A Beginners Guide to Web Development with Rails
 
-Things you may want to cover:
+Ruby version: ruby 3.0.0p0
 
-* Ruby version
+# Initial Setup
+Install gems using:
 
-* System dependencies
+` $ bundle install`
 
-* Configuration
+Initialize Rspec with: 
 
-* Database creation
+`$ bundle exec rspec --init`
 
-* Database initialization
 
-* How to run the test suite
+# Run the tests
+To run all the tests at once use:
 
-* Services (job queues, cache servers, search engines, etc.)
+`$ make test`
 
-* Deployment instructions
-
-* ...
